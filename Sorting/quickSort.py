@@ -1,3 +1,4 @@
+############################### QuickSort Routine ###############################
 def QuickSort(list1):
    quickSort(list1,0,len(list1)-1)
 
@@ -36,8 +37,10 @@ def partition(list1,first,last):
    list1[first] = list1[rightindex]
    list1[rightindex] = temp
    return rightindex
-
+##################################################################################
+################################## Main Program ##################################
 list1 = [24,56,103,127,7,36,444,5,20]
 print('Unsorted List: ',list1)
 QuickSort(list1)
 print('Sorted List: ',list1)
+##################################################################################
