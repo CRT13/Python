@@ -1,6 +1,4 @@
-"""
-A five-function (+,-,*,/,abs) complex-number calculator program
-"""
+""" A five-function (+,-,*,/,abs) complex-number calculator program"""
 ######################## IMPORT LIBRARIES #######################
 import math
 ##################### CLASS INITIALIZATIONS #####################
