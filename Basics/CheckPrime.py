@@ -1,7 +1,5 @@
-"""
-Prime Number Checker
-"""
-############################## Function Description ############################
+""" CheckPrime: Prime Number Checker """
+#################### FUNCTION INITIALIZATIONS ###################
 def checkPrime():
     #User-I/P Display
     print('==========================================')
@@ -18,8 +16,8 @@ def checkPrime():
           print(num,'is prime!')
     else:
       print(num,'is not a prime number!')
-          
-################################## Main Program ##################################
+#################################################################
+########################## MAIN PROGRAM #########################
 try:
     check = True
     while check:
@@ -27,6 +25,5 @@ try:
         check = int(input('Another Number?(1/0)'))
 except:
     print('Error! Try Again')
-##################################################################################
-
+#################################################################
 
