@@ -1,5 +1,5 @@
 """ SimpleCalc: Four-Function Calculator """
-
+#################### FUNCTION INITIALIZATIONS ###################
 def Add(x,y):
     print('Sum = ',x+y)
 def Sub(x,y):
@@ -8,7 +8,8 @@ def Mul(x,y):
     print('Product ',x*y)
 def Div(x,y):
     print('Quotient = ',x/y)
-
+#################################################################
+########################## MAIN PROGRAM #########################
 legalTup = (1,2,3,4)
 flag = 0
 restart = 1
@@ -44,3 +45,4 @@ while restart:
     else:
         print('Invalid Choice!')
         break
+#################################################################
