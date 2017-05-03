@@ -1,7 +1,6 @@
-"""
-Simple Multiplication Table
-"""
-############################## Function Description ############################
+""" MultiplyTable: Simple Multiplication Table """
+#################### FUNCTION INITIALIZATIONS ###################
+def Add(x,y):
 def multiplyTable():
     #User-I/P Display
     print('==========================================')
@@ -10,8 +9,8 @@ def multiplyTable():
     num = int(input("Please Enter Value of 'n': "))
     for i in range(1,11):
        print(num,'x',i,'=',num*i)
-          
-################################## Main Program ##################################
+#################################################################
+########################## MAIN PROGRAM #########################
 try:
     check = True
     while check:
@@ -19,6 +18,5 @@ try:
         check = int(input('Another Number?(1/0)'))
 except:
     print('Error! Try Again')
-##################################################################################
-
+#################################################################
 
