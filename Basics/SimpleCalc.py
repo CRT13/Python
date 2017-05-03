@@ -1,4 +1,4 @@
-#Four-Function Calculator
+""" SimpleCalc: Four-Function Calculator """
 
 def Add(x,y):
     print('Sum = ',x+y)
