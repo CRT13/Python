@@ -17,7 +17,7 @@ def display_metadata(md):
             'dc_source':md.dc_source,
             'dc_subject':md.dc_subject,
             'dc_type':md.dc_type,
-			#'dc_title':md.dc_title, <- This doesn't work for some files
+	    #'dc_title':md.dc_title, <- This doesn't work for some files
             'pdf_keywords':md.pdf_keywords,
             'pdf_pdfversion':md.pdf_pdfversion,
             'pdf_producer':md.pdf_producer,
