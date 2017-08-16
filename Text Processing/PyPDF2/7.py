@@ -24,5 +24,8 @@ Note
  1. pdf_pages = []  # Every element is a single-page object
     pdf_text = []   # Every element is a single-page text-string
  2. It'd be really helpful if you could suggest a better way to insert page number (without using multiprocessing).
-The efficiency is no-way close to 'pdftotext'. This one's just for fun!
+ 3. The efficiency is no-way close to 'pdftotext'. This one's just for fun!
+    An easier alternative (especially for pages in range) would be to use:
+    >>> import os
+    >>> os.system('pdftotext -f 1 -l 10 -layout /path/to/input.pdf /path/to/output.txt')
 """
