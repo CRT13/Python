@@ -9,7 +9,7 @@ Scripts:
 	04 = Obtain file-info from pdf file
 	05 = Reorder pages in a pdf file
 	06 = Display pdf file metadata
-	07 = 
+	07 = Extract text from pdf file and copy into txt file
 	08 = 
 	09 = 
 	10 = 
