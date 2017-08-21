@@ -1,4 +1,5 @@
 This section is dedicated to recipies for Python3 using PyPDF2 module.
+ "Reference - PyPDF2" contains documentation for the PyPDF2 module. 
 Refer:
 	https://pypi.python.org/pypi/PyPDF2
 	https://pythonhosted.org/PyPDF2/
