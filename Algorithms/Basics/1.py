@@ -1,10 +1,10 @@
 """ Python3: Calculate Greatest-Common-Divisor for two numbers """
 def gcd1(m,n):
     """
-	No.of Steps ~ Number value
-		eg. for 10^9 (=1 billion), about 1 billion steps are needed
-	"""
-	fm = [] # Factors of m
+    No.of Steps ~ Number value
+        eg. for 10^9 (=1 billion), about 1 billion steps are needed
+    """
+    fm = [] # Factors of m
     fn = [] # Factors of n
     fc = [] # Common factors of m,n
     for i in range(1,m+1):
