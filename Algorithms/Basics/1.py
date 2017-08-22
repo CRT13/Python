@@ -1,4 +1,4 @@
-""" Python3: Calculate Greatest-Common-Divisor for two numbers """
+""" Python3: Calculate the Greatest-Common-Divisor for two numbers """
 def gcd1(m,n):
     """
     No.of Steps ~ Number value
@@ -41,7 +41,7 @@ def gcd4(m,n):
         (m,n) = (n,m)
     while (m%n) != 0:
         d = m-n    # Utmost value is 1
-        (m,n) = (mam(n,d),min(n,d))
+        (m,n) = (max(n,d),min(n,d))
     return(n)
 def gcd5a(m,n):
     if m<n:
@@ -52,16 +52,16 @@ def gcd5a(m,n):
         return(gcd7(n,m%n))
 def gcd5b(m,n):
     """
-	No.of Steps ~ No. of digits
-		eg. for 10^9 (=10digits), about 10 steps are needed
-	"""
-	if m<n:
+    No.of Steps ~ No. of digits
+        eg. for 10^9 (=10digits), about 10 steps are needed
+    """
+    if m<n:
         (m,n) = (n,m)
     while (m%n) != 0:
         (m,n) = (n,m%n)
     return(n)
 """
 Note: 
-  1. Functions 1-5 are solutions the same problem - calculating the gcd of two numbers (m,n).
-  2. The difference in computation-time difference between the first & last functions.
+  1. Functions 1-5 are solutions the same problem - calculating the gcd for two numbers (m,n).
+  2. The difference in computation-time between the first & last functions.
 """
